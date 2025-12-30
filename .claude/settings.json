@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "deny": [
+      "Bash(cd:/*)",
+      "Bash(cd:~*)",
+      "Bash(rm:*)",
+      "Bash(chmod:*)",
+      "Bash(curl:*)",
+      "Read(~/.ssh/**)",
+      "Read(~/.aws/**)",
+      "Read(**/.env*)",
+      "WebFetch"
+    ],
+    "ask": [
+      "Bash(git push:*)",
+      "Write(./**)"
+    ]
+  }
+}
